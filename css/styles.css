@@ -1,0 +1,354 @@
+/* styles for final project */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    background-attachment: fixed;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.inner-header {
+    background-image: url(../images/bingataback.jpg);
+    margin-top: 0;
+    height: 150px;
+}
+
+#primary {
+    height: 60px;
+    line-height: 60px;
+    background: #7a9b9a;
+}
+
+#primary ul {
+    width: 1000px;
+    margin: auto;
+}
+
+#primary li {
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    width: 25%;
+}
+
+#primary a {
+    text-decoration: none;
+    color: aliceblue;
+    display: block;
+}
+
+#primary a:hover {
+    background: aliceblue;
+    color: #7a9b9a;
+}
+
+.home #primary li:nth-child(1) a,
+.about #primary li:nth-child(2) a,
+.events #primary li:nth-child(3) a,
+.contact #primary li:nth-child(4) a {
+    background: aliceblue;
+    color: #7a9b9a;
+}
+
+#secondary {
+    margin-top: 18px;
+    margin-bottom: 20px;
+}
+
+#secondary li {
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    background: #fff;
+    list-style-type: none;
+    margin: 0 auto 10px auto;
+    border-radius: 5px;
+}
+
+#secondary a {
+    display: block;
+    padding-left: 20px;
+    text-decoration: none;
+    color: #7a9b9a;
+    font-size: 1.2em;
+}
+
+#secondary a:hover {
+    background: #7a9b9a;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.visit #secondary li:nth-child(1) a,
+.discover #secondary li:nth-child(2) a {
+    background: #7a9b9a;
+    color: #fff;
+}
+
+#wrapper {
+    width: 940px;
+    margin: 210px auto 20px auto;
+}
+
+#hero {
+    text-align: center;
+}
+
+#hero img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+main {
+    width: 570px;
+    float: left;
+    margin-top: 10px;
+}
+
+.scroll-top {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.scroll-top a {
+   color: #294b52;
+   
+}
+
+.home main {
+    height: 800px;
+}
+
+.about .right {
+    max-width: 50%;
+    display: block;
+    float: right;
+    margin-left: 5px;
+}
+
+.events main img {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+.events main ul {
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.visit main {
+    margin-bottom: 30px;
+}
+.contact main {
+    margin-bottom: 30px;
+}
+
+aside {
+    width: 340px;
+    margin-top: 10px;
+    margin-right: 7px;
+    padding: 0 5px 10px;
+    background: rgb(211, 228, 211);
+    float: right;
+    border-radius: 10px;
+}
+
+aside img {
+    max-width: 70%;
+    display: block;
+    margin: 10px auto;
+}
+
+.about aside table {
+    margin-left: 5px;
+    margin-left: 10px;
+}
+
+.about aside th, td {
+    text-align: left;
+    padding: 3px;
+}
+
+.events aside p {
+    text-align: center;
+}
+
+.contact aside ol {
+    margin-left: 20px;
+    margin-top: 10px;
+    line-height: 1.35;
+}
+
+.contact aside hr {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/* style rowws */
+.row {
+    clear: both;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+.col-8 {
+    width: 460px;
+    float: left;
+    padding-right: 15px;
+}
+
+.col-8 img {
+    max-width: 100%;
+    display: block;
+}
+
+.col-8 p {
+    margin-bottom: 15px;
+}
+
+/* contact form style */
+
+form {
+    max-width: 570px;
+    display: block;
+}
+
+fieldset {
+    padding: 10px;
+    border-radius: 5px;
+}
+
+legend {
+    font-size: 1.4em;
+    font-style: italic;
+    padding: 8px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 1.2em;
+}
+
+input {
+    margin-bottom: 10px;
+    height: 30px;
+    /* width: 100%; */
+}
+
+input[type="submit"] {
+    width: auto;
+    padding: 10px;
+    line-height: 2px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto;
+    margin-bottom: 5px;
+    height: auto;
+    margin-right: 3px;
+}
+
+select {
+    margin-bottom: 10px;
+}
+
+form ul {
+    list-style-type: none;
+    margin-left: 8px;
+    margin-bottom: 10px;
+    
+}
+
+form li {
+    font-size: 1.17em;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+/* Thank you page style */
+.thx main {
+    height: 700px;
+}
+
+.thx aside {
+    margin-bottom: 15px;
+}
+
+footer {
+    height: 60px;
+    line-height: 60px;
+    padding-top: 5px;
+    background:#7a9b9a ;
+    clear: both;
+}
+
+
+footer li {
+    list-style-type: none;
+    float: left;
+    text-align: center;
+    width: 20%;
+}
+
+footer a {
+    color: black;
+}
+
+
+
+/* Typography */
+
+h1, h2, h3, h4 {
+    margin: 15px 10px 10px;
+}
+
+h1 {
+    color: #294b52;
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.2em;
+}
+h3 {
+    font-size: 1.5em;
+}
+h4 {
+    font-size: 1.3em;
+}
+
+aside h3{
+    text-align: center;
+}
+
+aside p {
+    font-size: 1em;
+}
+
+
+p {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 1em;
+    line-height: 1.35;
+}
