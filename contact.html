@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact page of RNK website</title>
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+</head>
+
+<body class="contact">
+    <header>
+        <div class="inner-header">
+
+        </div>
+
+        <nav id="primary">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="events.html">EVENTS</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+
+        </nav>
+
+    </header>
+
+    <div id="wrapper">
+        <div id="hero">
+            <img src="images/contactpage.jpg" alt="banner">
+        </div>
+
+
+        <main>
+            <h1>Contact Page</h1>
+
+            <form action="formhandler.php" method="post">
+                <fieldset>
+                    <legend>Contact Information</legend>
+                    <label>Name</label>
+                    <input type="text" name="name">
+
+                    <label>Email</label>
+                    <input type="email" name="email">
+
+                    <label>Gender</label>
+                    <ul>
+                        <li><input type="radio" name="gender" value="female">Female</li>
+
+                        <li><input type="radio" name="gender" value="male">Male</li>
+
+                        <li><input type="radio" name="gender" value="other">Other</li>
+                    </ul>
+
+                    <label>Places you have visited</label>
+                    <ul>
+                        <li><input type="checkbox" name="places[]" value="shuri castle">Shuri-jo Castle</li>
+
+                        <li><input type="checkbox" name="places[]" value="zanpa cape">Sesoko Island</li>
+
+                        <li><input type="checkbox" name="places[]" value="sesoko ohashi">Shikina-en</li>
+
+                        <li><input type="checkbox" name="places[]" value="katsuren-jo site">Katsuren-jo Site</li>
+
+                        <li><input type="checkbox" name="places[]" value="other">Other</li>
+                    </ul>
+
+                    <label>Regions</label>
+                    <select>
+                        <option value="null">Select one</option>
+                        <option value="nw">Northwest</option>
+                        <option value="sw">Southeast</option>
+                        <option value="mw">Mideast</option>
+                        <option value="so">South</option>
+                        <option value="se">Northeast</option>
+                        <option value="east">Eastcoast</option>
+                        <option value="other">Other</option>
+                    </select>
+
+                    <label>Comments</label>
+                    <textarea name="comments"></textarea>
+
+                    <input type="submit" name="submit" value="Send it">
+
+                </fieldset>
+            </form>
+
+        </main>
+
+        <aside>
+
+            <img src="images/logo3.png" alt="logo">
+            <h3>Share your story with us</h3>
+            <p>We would like to know your experience with our community website. Please tell us in the comment section...</p>
+            <hr>
+            <ol>
+                <li>What would you like to learn more about Okinawa?</li>
+                <li>Share your story about Okinawa if you have any experience.</li>
+                <li>What brought you here?</li>
+                <li>What do you know about Okinawa?</li>
+                <li>What kind of contents would you love to see?</li>
+            </ol>
+        </aside>
+
+        <footer>
+            <ul>
+                <li>Copyright &copy;2023</li>
+                <li>All Right Reserved</li>
+                <li><a href="">Terms of use</a></li>
+                <li><a href="../index.html">Web Design by Yuria Loo</a></li>
+                <li><a href="https://validator.w3.org/nu/?doc=http%3A%2F%2Fcompass.northseattle.edu%2F%7Eyurialoo%2Fit161%2Ffinal%2Fcontact.html">Valid</a></li>
+            </ul>
+        </footer>
+
+    </div> <!--End wrapper -->
+    
+</body>
+</html>
